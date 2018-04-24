@@ -25,6 +25,7 @@ class Game
       puts "Seriously? No!"
     end
   end
+
 #  while()
 
  # end

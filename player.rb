@@ -17,5 +17,4 @@ class Player
   def loose_life
     @lives -= 1
   end
-
 end
