@@ -2,6 +2,7 @@
 # adjusting game's behavior: game loop, current user
 require "./player.rb"
 
+
 class Game
   attr_accessor :number1
   attr_accessor :number2
