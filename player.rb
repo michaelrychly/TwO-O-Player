@@ -1,5 +1,6 @@
 # Storing player attributes: name and lives
 # adjusting player's behavior
+
 class Player
   attr_accessor :name
   attr_reader :lives
