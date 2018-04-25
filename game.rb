@@ -16,9 +16,8 @@ class Game
     @current_player = @player1
   end
 
-  @game_start
-
   def play
+    game_start
     while(not game_over?)
       pick_question
       answer = gets.chomp
@@ -31,7 +30,7 @@ class Game
 
 private
   def game_start
-    puts "Welcome #{@player1.name} and #{@player2.name}"
+    puts "A big welcome to #{@player1.name} and #{@player2.name} let's play TwO-O-Player"
   end
 
   def new_turn
